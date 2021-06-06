@@ -1,0 +1,22 @@
+.waves > path {
+  animation: wave-animation 4s infinite alternate;
+//   animation-duration: 4s;
+//   animation-iteration-count: infinite;
+//   animation-direction: alternate;
+}
+
+@keyframes wave-animation {
+  0%   {
+    margin-left:0px;
+    margin-top:0px;
+    }  
+  50%  {
+    margin-left:-2000px;
+    margin-top:200px;
+    }  
+  100% {
+    margin-left:0px; 
+    margin-top:0px;
+    }
+}
+

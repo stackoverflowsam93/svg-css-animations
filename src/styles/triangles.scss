@@ -1,0 +1,25 @@
+.triangles > g > path {
+    animation: triangle-animation 2.2s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes triangle-animation {
+  10%, 90% {
+    tranform: rotate(5deg);
+  }
+  
+  20%, 80% {
+    tranform: rotate(90deg);
+  }
+
+  30%, 50%, 70% {
+    tranform: rotate(180deg);
+  }
+
+  40%, 60% {
+    tranform: rotate(30deg);
+  }
+  100% { 
+      tranform: rotate(0deg);
+  }
+}
+
